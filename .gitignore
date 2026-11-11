@@ -55,3 +55,35 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Configurações locais
+appsettings.Local.json
+appsettings.Development.Local.json
+
+# Variáveis de ambiente
+.env.*
+!.env.example
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.cache
+
+# Cobertura de testes
+coverage/
+coverage.*
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
